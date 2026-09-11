@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Progress Block</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="app">
+            <div class="progress" id="progress">
+                <label class="progress__title">Progress</label>
+                
+                <div class="progress__circle" id="progress__circle"></div>
+                
+                <div class="progress__controls">
+                    
+                    <label class="progress__control">
+                        <input class="progress__input">
+                        <span>Value</span>
+                    </label>
+                    
+                    <label class="progress__control">
+                        <input type="checkbox" class="progress__toggle progress__toggle--animate">
+                        <span class="progress__toggle-slider"></span>
+                        <span>Animated</span>
+                    </label>
+                    
+                    <label class="progress__control">
+                        <input type="checkbox" class="progress__toggle progress__toggle--hide">
+                        <span class="progress__toggle-slider"></span>
+                        <span>Hidden</span>
+                    </label>
+                    
+                </div>
+            </div>
+        </div>
+    <script src="controls.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
